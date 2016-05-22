@@ -5,29 +5,45 @@
      <title>Local Weather App</title>
      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
      <meta charset="UTF-8">
-     <link href="css/weather.css"></script>
-     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
      <script src="js/jquery-1.12.3.js" defer></script>
      <script src="js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/weather.css"></script>
      <script src="js/weather.js" defer></script>
-
+     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster">
 
 
   </head>
 
  <body>
 
-   <div class="container-fluid">
+   <div class="text-center header">
 
-      <div id="city" style="color:white"></div>
-      <div id="temperature" style="color:white"></div>
+     <h1>Local Weather App</h2>
+
+  </div>
+
+   <div class="container-fluid text-center">
+
+      <h2 id="city" style="color:white"></h2>
+
+        <span>
+          <h3 id="temperature" style="color:white"></h2>
+          <input id="convert-button" type="button" class="btn btn-lg btn-primary" value="°F / °C"/>
+        </span>
+
       <div id="condition"></div>
+      <div id="condition-icon">
 
-      <div>
-        <input id="convert-button" type="button" class="btn btn-lg btn-primary" value="Display: °F / °C"/>
-     </div>
+
+      </div>
 
    </div>
+
+
+
+
 
 <!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  -->
 

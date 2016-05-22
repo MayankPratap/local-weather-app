@@ -36,10 +36,11 @@ $(document).ready(function(){
           bgIndex=backgroundId.sort().indexOf(wid);
 
           $('body').css('background-image','url('+backgroundImg[bgIndex]+')');
-
-
+          $('#city').text(city+" ,"+country);
           $('#temperature').text(tempC.toString()+'° C');
-          $('#condition').html("<h4 style='color:white'>"+wdescription+"</h4>"+" <img src="+wicon+">");
+          $('#condition').html("<h3 style='color:white'>"+wdescription+"</h4>");
+          $('#condition-icon').html("<img src="+wicon+" class='img-responsive centered'>")
+
 
         /*
           console.log(tempC.toString());
