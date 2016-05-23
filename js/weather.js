@@ -80,13 +80,13 @@ $('#convert-button').click(function(){
 
    if($('#temperature').text().indexOf('F')>-1){
 
-      $('#temperature').text(tempC+'° C')
+      $('#temperature').text(tempC.toFixed(2)+'° C')
 
    }
 
    else{
 
-    $("#temperature").text(tempF+'° F');
+    $("#temperature").text(tempF.toFixed(1)+'° F');
 
    }
 

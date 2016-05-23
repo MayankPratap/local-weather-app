@@ -53,7 +53,7 @@ body{
 .content{
 
     position:fixed;
-    top:10%;
+    top:20%;
     left:50%;
     margin-left:-70.5px;
 
@@ -67,6 +67,7 @@ body{
    padding:1em 1em 0;
    position:fixed;
    bottom:0;
+
 }
 
 .footer-logos i{
