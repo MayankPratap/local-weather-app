@@ -53,10 +53,8 @@ body{
 .content{
 
     position:fixed;
-    top:10%;
-    left:50%;
-
-
+    top:20%;
+    left:46%;
     margin-left:-70.5px;
 
 }
@@ -84,4 +82,3 @@ body{
 
     margin-top:20px;
 }
-
